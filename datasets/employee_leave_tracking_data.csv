@@ -1,0 +1,301 @@
+Employee Name,Department,Position,Leave Type,Start Date,End Date,Days Taken,Total Leave Entitlement,Leave Taken So Far,Remaining Leaves,month
+Michael Moore,IT,Software Engineer,Maternity Leave,2023-12-21,2023-12-25,5,21,4,12,Dec
+Michael Collier,HR,HR Manager,Sick Leave,2024-12-01,2024-12-06,6,28,5,17,Dec
+Ashley Rogers,Finance,Accountant,Maternity Leave,2024-06-08,2024-06-11,4,23,17,2,Jun
+Kelly Alexander,Finance,Accountant,Earned Leave,2024-11-03,2024-11-08,6,28,19,3,Nov
+Corey Chung,Finance,Financial Analyst,Maternity Leave,2024-03-01,2024-03-06,6,21,6,9,Mar
+Daniel Schmidt,Finance,Financial Analyst,Sick Leave,2024-08-28,2024-09-05,9,30,15,6,Aug
+Nicole Day,Operations,Operations Manager,Earned Leave,2024-08-01,2024-08-06,6,26,7,13,Aug
+Justin Waller,HR,HR Manager,Paternity Leave,2024-09-24,2024-09-30,7,24,8,9,Sep
+Gavin Johnson,Finance,Accountant,Maternity Leave,2024-01-25,2024-01-31,7,27,1,19,Jan
+Kevin Wall,Marketing,SEO Analyst,Sick Leave,2024-04-22,2024-04-26,5,30,24,1,Apr
+Amy Gaines,HR,HR Manager,Sick Leave,2024-03-22,2024-03-27,6,22,6,10,Mar
+Sally Chapman,IT,System Administrator,Earned Leave,2024-02-25,2024-03-02,7,24,7,10,Feb
+Robert Jones,IT,Software Engineer,Paternity Leave,2024-11-02,2024-11-08,7,28,0,21,Nov
+Daniel Gomez,HR,Recruiter,Earned Leave,2024-07-18,2024-07-20,3,24,18,3,Jul
+Randy Reyes,IT,System Administrator,Paternity Leave,2023-12-31,2024-01-07,8,22,12,2,Dec
+Phillip Alvarez,Finance,Financial Analyst,Casual Leave,2024-04-17,2024-04-20,4,30,9,17,Apr
+Kathryn Hobbs,Operations,Operations Manager,Earned Leave,2024-03-25,2024-04-02,9,29,19,1,Mar
+Joseph James MD,Marketing,SEO Analyst,Casual Leave,2024-06-20,2024-06-27,8,24,13,3,Jun
+Dalton Barber,Operations,Logistics Coordinator,Maternity Leave,2024-09-24,2024-10-01,8,22,13,1,Sep
+Holly Parsons,IT,Software Engineer,Earned Leave,2024-09-15,2024-09-22,8,25,16,1,Sep
+Elizabeth Cook,Finance,Accountant,Sick Leave,2024-04-18,2024-04-25,8,29,15,6,Apr
+Joseph Lawrence,IT,System Administrator,Paternity Leave,2024-09-22,2024-09-28,7,27,0,20,Sep
+Joanna Frye,Marketing,Marketing Specialist,Casual Leave,2024-10-18,2024-10-26,9,28,1,18,Oct
+Elizabeth Sullivan,HR,HR Manager,Casual Leave,2024-12-04,2024-12-12,9,27,8,10,Dec
+Vincent Gonzalez,HR,Recruiter,Earned Leave,2024-08-31,2024-09-09,10,29,12,7,Aug
+Danielle George,Operations,Operations Manager,Paternity Leave,2024-03-29,2024-04-03,6,23,5,12,Mar
+Kelly Hendrix,HR,HR Manager,Earned Leave,2024-12-06,2024-12-11,6,22,11,5,Dec
+Tammy Watson,IT,System Administrator,Maternity Leave,2024-06-07,2024-06-09,3,25,13,9,Jun
+Peter Ryan,IT,System Administrator,Casual Leave,2024-07-02,2024-07-10,9,30,7,14,Jul
+Sharon Aguilar,Finance,Financial Analyst,Maternity Leave,2024-05-21,2024-05-28,8,20,7,5,May
+Deanna Huang,Operations,Logistics Coordinator,Casual Leave,2024-09-12,2024-09-17,6,21,2,13,Sep
+Chase Golden,HR,HR Manager,Casual Leave,2024-03-28,2024-04-05,9,26,0,17,Mar
+Haley Holmes,Finance,Accountant,Casual Leave,2024-04-23,2024-04-28,6,21,11,4,Apr
+Jennifer Campbell,Finance,Accountant,Casual Leave,2024-10-01,2024-10-01,1,22,0,21,Oct
+Jennifer Santiago,Operations,Operations Manager,Sick Leave,2024-12-03,2024-12-04,2,25,5,18,Dec
+Luke Jackson,HR,Recruiter,Sick Leave,2024-03-21,2024-03-27,7,25,8,10,Mar
+Alyssa Adams,Operations,Logistics Coordinator,Sick Leave,2024-03-18,2024-03-18,1,28,7,20,Mar
+Brenda Wilson,HR,HR Manager,Earned Leave,2024-09-17,2024-09-23,7,28,17,4,Sep
+Kristina Lowe,Finance,Accountant,Sick Leave,2024-12-16,2024-12-25,10,23,7,6,Dec
+Sean Shah,Operations,Logistics Coordinator,Sick Leave,2024-06-12,2024-06-19,8,20,5,7,Jun
+Joseph Manning,Marketing,SEO Analyst,Sick Leave,2024-09-06,2024-09-11,6,28,9,13,Sep
+Joseph Grant,IT,Software Engineer,Paternity Leave,2024-07-10,2024-07-13,4,24,9,11,Jul
+Antonio Welch,Marketing,SEO Analyst,Casual Leave,2024-01-05,2024-01-12,8,24,10,6,Jan
+Yolanda Holt,Operations,Logistics Coordinator,Casual Leave,2024-03-30,2024-04-04,6,30,19,5,Mar
+Anna Acosta,Operations,Operations Manager,Sick Leave,2024-08-01,2024-08-01,1,29,6,22,Aug
+Robert Hardy,Finance,Financial Analyst,Casual Leave,2023-12-24,2023-12-31,8,28,17,3,Dec
+Crystal Wilson,Marketing,Marketing Specialist,Casual Leave,2024-01-27,2024-02-03,8,20,5,7,Jan
+Dawn Carey,Operations,Operations Manager,Sick Leave,2024-01-16,2024-01-17,2,22,12,8,Jan
+Caleb Terrell,IT,System Administrator,Earned Leave,2024-01-22,2024-01-29,8,20,7,5,Jan
+Cynthia Strickland,HR,Recruiter,Sick Leave,2024-09-24,2024-09-28,5,28,11,12,Sep
+Terri Salas,Marketing,SEO Analyst,Casual Leave,2024-06-22,2024-06-24,3,29,0,26,Jun
+John Reese,IT,Software Engineer,Sick Leave,2024-08-07,2024-08-11,5,21,3,13,Aug
+Scott Johnson,Operations,Logistics Coordinator,Maternity Leave,2024-02-25,2024-03-02,7,22,7,8,Feb
+Kevin Orr,Operations,Operations Manager,Casual Leave,2024-02-01,2024-02-10,10,30,7,13,Feb
+Julia Rivers,Marketing,Marketing Specialist,Earned Leave,2024-08-20,2024-08-25,6,20,9,5,Aug
+Robert Cervantes,Finance,Financial Analyst,Paternity Leave,2024-08-16,2024-08-19,4,24,1,19,Aug
+David Strong DVM,Finance,Financial Analyst,Earned Leave,2024-01-21,2024-01-28,8,26,10,8,Jan
+Denise Collins,IT,Software Engineer,Maternity Leave,2024-11-16,2024-11-25,10,30,2,18,Nov
+Terri Olsen,Finance,Accountant,Paternity Leave,2024-02-26,2024-03-02,6,23,16,1,Feb
+Allison Evans,IT,Software Engineer,Casual Leave,2024-06-07,2024-06-10,4,25,10,11,Jun
+Adam Solomon,HR,HR Manager,Sick Leave,2024-04-18,2024-04-24,7,27,6,14,Apr
+Billy Duran,Finance,Accountant,Paternity Leave,2024-10-14,2024-10-20,7,26,2,17,Oct
+Rita Hull,Marketing,Marketing Specialist,Maternity Leave,2024-11-28,2024-11-29,2,23,14,7,Nov
+Martin Anderson,IT,System Administrator,Paternity Leave,2024-05-09,2024-05-14,6,28,11,11,May
+Jessica Beard,Operations,Logistics Coordinator,Paternity Leave,2024-01-20,2024-01-25,6,25,15,4,Jan
+Kenneth Smith,Operations,Operations Manager,Casual Leave,2024-02-04,2024-02-08,5,23,7,11,Feb
+Todd Preston,Finance,Financial Analyst,Maternity Leave,2024-06-07,2024-06-15,9,27,17,1,Jun
+Lauren Santos,Finance,Financial Analyst,Maternity Leave,2023-12-25,2023-12-31,7,30,12,11,Dec
+Rachel Jones,Operations,Logistics Coordinator,Earned Leave,2024-08-27,2024-08-28,2,26,15,9,Aug
+Tanya Cameron,HR,Recruiter,Sick Leave,2024-05-10,2024-05-14,5,27,13,9,May
+Arthur Smith,Marketing,Marketing Specialist,Maternity Leave,2024-04-02,2024-04-09,8,22,10,4,Apr
+Allison Richard,HR,HR Manager,Sick Leave,2024-08-28,2024-08-28,1,24,7,16,Aug
+Jessica Chaney,Finance,Financial Analyst,Earned Leave,2024-02-10,2024-02-19,10,26,5,11,Feb
+Lisa Richardson,Operations,Logistics Coordinator,Paternity Leave,2024-11-23,2024-12-01,9,30,13,8,Nov
+Alexander Hahn,IT,System Administrator,Maternity Leave,2024-07-23,2024-07-30,8,22,14,0,Jul
+Kristen Kerr,Marketing,Marketing Specialist,Maternity Leave,2024-04-17,2024-04-26,10,24,6,8,Apr
+Kathryn Grant,IT,System Administrator,Paternity Leave,2024-05-21,2024-05-27,7,22,15,0,May
+Erin Quinn,IT,Software Engineer,Paternity Leave,2024-10-28,2024-10-28,1,25,1,23,Oct
+Erik Pierce,Finance,Financial Analyst,Earned Leave,2024-02-29,2024-03-04,5,21,15,1,Feb
+Jeffery Forbes,Marketing,Marketing Specialist,Maternity Leave,2024-11-12,2024-11-19,8,29,19,2,Nov
+Steven Patterson,Operations,Operations Manager,Casual Leave,2024-08-17,2024-08-21,5,24,13,6,Aug
+Heather Berry,Operations,Logistics Coordinator,Sick Leave,2024-02-14,2024-02-16,3,28,11,14,Feb
+Anthony Johnson,IT,System Administrator,Casual Leave,2024-06-29,2024-07-04,6,22,8,8,Jun
+Edward Morrison,HR,HR Manager,Sick Leave,2024-05-17,2024-05-19,3,26,17,6,May
+Joseph Wheeler,Marketing,SEO Analyst,Maternity Leave,2024-10-16,2024-10-18,3,28,25,0,Oct
+Brandon Price,Finance,Accountant,Sick Leave,2024-10-17,2024-10-26,10,20,10,0,Oct
+Jeffrey Boyd,IT,System Administrator,Casual Leave,2024-06-27,2024-07-06,10,27,1,16,Jun
+Justin Smith,Operations,Operations Manager,Paternity Leave,2024-10-06,2024-10-12,7,26,17,2,Oct
+Lee Abbott,Marketing,Marketing Specialist,Maternity Leave,2024-08-30,2024-09-08,10,23,11,2,Aug
+Carrie Anderson,Operations,Operations Manager,Earned Leave,2023-12-25,2024-01-03,10,23,6,7,Dec
+Dr. Jacqueline Cooper,IT,Software Engineer,Sick Leave,2024-05-17,2024-05-20,4,23,13,6,May
+Zachary Castillo,Finance,Financial Analyst,Sick Leave,2024-07-06,2024-07-14,9,24,2,13,Jul
+Sonia Myers,Marketing,SEO Analyst,Maternity Leave,2024-11-27,2024-12-06,10,27,3,14,Nov
+William Mercado,Marketing,Marketing Specialist,Sick Leave,2024-12-12,2024-12-12,1,24,2,21,Dec
+Charles Harris,HR,HR Manager,Maternity Leave,2024-05-01,2024-05-02,2,30,8,20,May
+Jessica Smith,IT,Software Engineer,Casual Leave,2024-05-27,2024-05-27,1,26,10,15,May
+Andrew Jones,IT,Software Engineer,Earned Leave,2024-11-16,2024-11-19,4,30,3,23,Nov
+Sandra Lara,Finance,Financial Analyst,Casual Leave,2024-10-12,2024-10-14,3,22,1,18,Oct
+Samantha Fowler,IT,Software Engineer,Maternity Leave,2024-10-12,2024-10-14,3,25,20,2,Oct
+Michael Edwards,HR,HR Manager,Earned Leave,2024-05-14,2024-05-17,4,25,6,15,May
+Michael Dorsey,Operations,Operations Manager,Earned Leave,2024-06-26,2024-06-30,5,20,1,14,Jun
+Kimberly Sanford,Operations,Logistics Coordinator,Sick Leave,2023-12-25,2023-12-26,2,21,0,19,Dec
+Dustin Hensley,Marketing,SEO Analyst,Paternity Leave,2024-11-27,2024-12-02,6,22,13,3,Nov
+Andrew Smith,Operations,Operations Manager,Maternity Leave,2024-01-10,2024-01-10,1,29,3,25,Jan
+Jeffrey Sherman,Finance,Financial Analyst,Earned Leave,2024-01-15,2024-01-18,4,22,18,0,Jan
+Joel Chandler,Operations,Operations Manager,Paternity Leave,2024-07-13,2024-07-15,3,30,13,14,Jul
+Carlos Moore,HR,HR Manager,Casual Leave,2024-12-11,2024-12-15,5,21,9,7,Dec
+Ivan Robertson,IT,System Administrator,Earned Leave,2024-10-06,2024-10-06,1,26,11,14,Oct
+Donna Bowers,Finance,Financial Analyst,Sick Leave,2024-06-22,2024-06-28,7,20,0,13,Jun
+Whitney Smith,IT,Software Engineer,Earned Leave,2024-01-04,2024-01-10,7,28,12,9,Jan
+Nathan Palmer,HR,Recruiter,Paternity Leave,2024-09-10,2024-09-12,3,24,15,6,Sep
+Danielle Watkins,Marketing,Marketing Specialist,Earned Leave,2024-11-27,2024-12-04,8,22,6,8,Nov
+Christopher Frank,HR,HR Manager,Sick Leave,2024-02-12,2024-02-15,4,28,15,9,Feb
+William Ward,Operations,Operations Manager,Casual Leave,2024-09-29,2024-10-05,7,30,22,1,Sep
+Ryan Davis,Finance,Financial Analyst,Earned Leave,2024-04-18,2024-04-25,8,26,12,6,Apr
+Diana Massey,Marketing,Marketing Specialist,Sick Leave,2023-12-28,2024-01-01,5,23,10,8,Dec
+Terry Campbell,Finance,Accountant,Casual Leave,2024-06-10,2024-06-14,5,22,9,8,Jun
+Holly Ward,Operations,Logistics Coordinator,Maternity Leave,2024-02-06,2024-02-11,6,23,17,0,Feb
+Steven Barnes,Operations,Operations Manager,Casual Leave,2024-06-08,2024-06-17,10,30,2,18,Jun
+Sandra Chen,Finance,Accountant,Maternity Leave,2024-09-19,2024-09-25,7,26,17,2,Sep
+Rhonda Mills,HR,HR Manager,Casual Leave,2024-05-16,2024-05-19,4,24,13,7,May
+David Richard,HR,HR Manager,Paternity Leave,2024-02-29,2024-03-08,9,22,1,12,Feb
+Linda Reynolds,Finance,Accountant,Maternity Leave,2024-03-23,2024-03-26,4,20,7,9,Mar
+Alan Hamilton,Operations,Logistics Coordinator,Casual Leave,2024-11-12,2024-11-19,8,24,9,7,Nov
+Tammy Morris,Marketing,Marketing Specialist,Maternity Leave,2024-10-09,2024-10-12,4,24,18,2,Oct
+Suzanne Green,Marketing,Marketing Specialist,Earned Leave,2024-10-06,2024-10-08,3,28,12,13,Oct
+Michael Anderson,Marketing,SEO Analyst,Sick Leave,2024-05-02,2024-05-06,5,25,18,2,May
+Jeffrey Walsh,Operations,Logistics Coordinator,Maternity Leave,2024-07-21,2024-07-21,1,26,25,0,Jul
+Lisa Smith,Finance,Accountant,Paternity Leave,2024-01-01,2024-01-03,3,26,18,5,Jan
+Kenneth Williamson,Finance,Financial Analyst,Casual Leave,2024-11-16,2024-11-18,3,23,13,7,Nov
+Kimberly Perez,Marketing,Marketing Specialist,Maternity Leave,2024-04-16,2024-04-19,4,22,17,1,Apr
+James Byrd,IT,System Administrator,Paternity Leave,2024-10-27,2024-11-02,7,27,11,9,Oct
+Tracy Serrano,HR,Recruiter,Sick Leave,2024-09-06,2024-09-09,4,26,4,18,Sep
+Marcus Jackson,IT,Software Engineer,Maternity Leave,2024-05-04,2024-05-07,4,25,4,17,May
+Jasmine Burns,Operations,Logistics Coordinator,Casual Leave,2024-08-28,2024-09-01,5,23,15,3,Aug
+Daniel Reed,Marketing,SEO Analyst,Sick Leave,2024-10-24,2024-10-24,1,21,0,20,Oct
+Melissa Coleman,HR,Recruiter,Casual Leave,2024-07-04,2024-07-11,8,28,16,4,Jul
+Amanda Mcdonald,Marketing,Marketing Specialist,Maternity Leave,2024-05-01,2024-05-08,8,25,9,8,May
+Jessica Glover,Marketing,SEO Analyst,Casual Leave,2024-07-19,2024-07-21,3,30,17,10,Jul
+Andrew Cole,Finance,Financial Analyst,Sick Leave,2024-09-07,2024-09-09,3,26,0,23,Sep
+Patricia Banks,Finance,Financial Analyst,Maternity Leave,2024-12-08,2024-12-10,3,23,7,13,Dec
+Joshua Phillips,Finance,Financial Analyst,Casual Leave,2024-08-13,2024-08-17,5,23,15,3,Aug
+Charles Sanchez,IT,Software Engineer,Maternity Leave,2024-10-05,2024-10-08,4,25,0,21,Oct
+Melissa Bentley,IT,System Administrator,Earned Leave,2024-08-09,2024-08-18,10,24,8,6,Aug
+Bethany Thompson,Finance,Financial Analyst,Casual Leave,2024-08-04,2024-08-13,10,20,1,9,Aug
+Beth Taylor,Marketing,Marketing Specialist,Casual Leave,2024-01-15,2024-01-18,4,22,9,9,Jan
+Julia Contreras,HR,Recruiter,Sick Leave,2024-07-07,2024-07-14,8,21,12,1,Jul
+Elizabeth Espinoza,Finance,Accountant,Casual Leave,2024-07-16,2024-07-18,3,30,25,2,Jul
+Renee Coleman,IT,Software Engineer,Earned Leave,2024-03-17,2024-03-17,1,27,18,8,Mar
+Joel Walker,HR,HR Manager,Casual Leave,2024-08-24,2024-08-26,3,20,7,10,Aug
+Daniel Sanchez,Operations,Logistics Coordinator,Sick Leave,2024-04-29,2024-04-30,2,23,2,19,Apr
+David Gonzalez,Operations,Operations Manager,Sick Leave,2024-04-23,2024-05-01,9,29,8,12,Apr
+James Sanchez,HR,HR Manager,Sick Leave,2024-09-29,2024-10-05,7,27,0,20,Sep
+Elizabeth Hebert,HR,Recruiter,Paternity Leave,2024-01-19,2024-01-21,3,29,16,10,Jan
+Whitney Davis,Marketing,Marketing Specialist,Earned Leave,2024-08-04,2024-08-05,2,30,2,26,Aug
+Kelly Adkins,Finance,Financial Analyst,Paternity Leave,2024-07-16,2024-07-18,3,25,3,19,Jul
+Jessica Thomas,Finance,Accountant,Paternity Leave,2024-02-24,2024-02-25,2,25,22,1,Feb
+Olivia Lopez,Operations,Operations Manager,Earned Leave,2024-10-21,2024-10-29,9,30,0,21,Oct
+Robin Stephens,Marketing,Marketing Specialist,Maternity Leave,2024-07-20,2024-07-26,7,20,12,1,Jul
+Meghan Mills,Operations,Logistics Coordinator,Casual Leave,2024-03-22,2024-03-22,1,29,10,18,Mar
+Joshua Nelson,Operations,Logistics Coordinator,Maternity Leave,2024-07-14,2024-07-16,3,30,20,7,Jul
+Richard Mcfarland,IT,Software Engineer,Casual Leave,2024-11-30,2024-12-07,8,23,3,12,Nov
+Paula Marsh,Finance,Financial Analyst,Sick Leave,2024-04-04,2024-04-12,9,22,11,2,Apr
+Kimberly Alexander,Operations,Operations Manager,Earned Leave,2024-04-21,2024-04-23,3,22,15,4,Apr
+Michelle Lowe,Operations,Operations Manager,Earned Leave,2024-06-20,2024-06-27,8,26,1,17,Jun
+Gerald Hoffman,HR,Recruiter,Casual Leave,2024-04-01,2024-04-10,10,26,5,11,Apr
+Luis Watson,Marketing,SEO Analyst,Casual Leave,2024-10-23,2024-10-24,2,29,4,23,Oct
+Marissa Richards,IT,Software Engineer,Sick Leave,2024-11-19,2024-11-21,3,24,19,2,Nov
+Tracey Chase,IT,System Administrator,Paternity Leave,2024-07-13,2024-07-21,9,20,3,8,Jul
+Paul Davis,Operations,Operations Manager,Earned Leave,2024-01-30,2024-02-01,3,21,18,0,Jan
+Angel Goodman,HR,Recruiter,Sick Leave,2024-09-29,2024-10-08,10,23,2,11,Sep
+Carolyn Adams,Marketing,SEO Analyst,Casual Leave,2024-02-05,2024-02-09,5,22,0,17,Feb
+Leroy Berry,Operations,Logistics Coordinator,Sick Leave,2024-02-02,2024-02-11,10,30,1,19,Feb
+Douglas Barber,HR,HR Manager,Earned Leave,2024-04-09,2024-04-11,3,21,10,8,Apr
+Charles Buchanan,IT,System Administrator,Maternity Leave,2024-07-12,2024-07-16,5,26,16,5,Jul
+Angela Morris,Finance,Financial Analyst,Casual Leave,2023-12-19,2023-12-19,1,28,27,0,Dec
+Mrs. Carla Griffith,HR,HR Manager,Casual Leave,2024-08-16,2024-08-18,3,30,13,14,Aug
+Theresa Garcia,Finance,Financial Analyst,Paternity Leave,2024-02-26,2024-02-28,3,30,20,7,Feb
+Cynthia Thompson,IT,System Administrator,Earned Leave,2024-01-18,2024-01-26,9,25,15,1,Jan
+Sherri Gordon,Finance,Financial Analyst,Casual Leave,2024-07-30,2024-08-01,3,20,17,0,Jul
+Kim Ross,HR,Recruiter,Casual Leave,2024-12-04,2024-12-11,8,24,4,12,Dec
+Kristina Porter,IT,Software Engineer,Paternity Leave,2024-10-24,2024-10-30,7,25,15,3,Oct
+Carly Wilson,Finance,Financial Analyst,Maternity Leave,2024-06-07,2024-06-08,2,22,10,10,Jun
+Brooke Hudson,Marketing,Marketing Specialist,Casual Leave,2024-11-22,2024-11-24,3,25,4,18,Nov
+Sara Proctor,IT,Software Engineer,Earned Leave,2024-06-07,2024-06-07,1,24,1,22,Jun
+Mrs. Catherine Dodson,Operations,Operations Manager,Paternity Leave,2024-10-17,2024-10-23,7,22,7,8,Oct
+Amber Snyder,Finance,Accountant,Sick Leave,2024-03-31,2024-04-01,2,23,0,21,Mar
+Michael Adkins,IT,Software Engineer,Paternity Leave,2024-01-04,2024-01-04,1,25,22,2,Jan
+Kimberly Maxwell,Operations,Logistics Coordinator,Earned Leave,2024-03-17,2024-03-21,5,23,14,4,Mar
+Doris Haney,HR,HR Manager,Earned Leave,2024-09-01,2024-09-02,2,24,15,7,Sep
+Jeffrey Garrett,Finance,Accountant,Paternity Leave,2024-06-16,2024-06-20,5,20,15,0,Jun
+Erin Sellers,IT,Software Engineer,Paternity Leave,2024-05-08,2024-05-08,1,21,4,16,May
+Donna Thompson,Finance,Financial Analyst,Casual Leave,2024-09-08,2024-09-13,6,20,5,9,Sep
+Mark Boyd,HR,Recruiter,Sick Leave,2024-08-21,2024-08-23,3,26,1,22,Aug
+Janice Johnson,Finance,Accountant,Sick Leave,2024-09-11,2024-09-20,10,23,9,4,Sep
+Kelly Adams,Operations,Operations Manager,Sick Leave,2024-10-09,2024-10-16,8,21,1,12,Oct
+Leslie Barajas,HR,HR Manager,Casual Leave,2024-03-16,2024-03-24,9,23,13,1,Mar
+Timothy Carter,Finance,Financial Analyst,Earned Leave,2024-03-05,2024-03-07,3,20,8,9,Mar
+Raymond Fernandez,Operations,Operations Manager,Earned Leave,2024-12-15,2024-12-18,4,29,21,4,Dec
+Sean Smith,IT,System Administrator,Sick Leave,2024-07-01,2024-07-06,6,25,9,10,Jul
+Jeffery Jones,Finance,Financial Analyst,Casual Leave,2024-01-14,2024-01-16,3,24,20,1,Jan
+Brett Knox,Operations,Operations Manager,Paternity Leave,2024-04-17,2024-04-24,8,27,5,14,Apr
+Miranda Weaver,HR,Recruiter,Paternity Leave,2023-12-22,2023-12-30,9,28,4,15,Dec
+Erik Morris,HR,Recruiter,Paternity Leave,2024-04-13,2024-04-14,2,26,24,0,Apr
+Nicholas Berry,IT,System Administrator,Casual Leave,2024-04-26,2024-04-27,2,24,7,15,Apr
+Jacob Gomez,Marketing,SEO Analyst,Casual Leave,2024-03-23,2024-04-01,10,26,3,13,Mar
+Lisa Gibson,Operations,Operations Manager,Maternity Leave,2024-06-29,2024-07-02,4,29,18,7,Jun
+Jacob Townsend,HR,HR Manager,Casual Leave,2024-08-14,2024-08-15,2,27,16,9,Aug
+Joseph Hanna,Operations,Operations Manager,Sick Leave,2024-08-28,2024-09-01,5,22,6,11,Aug
+Leah Wagner,HR,HR Manager,Paternity Leave,2024-09-05,2024-09-12,8,22,6,8,Sep
+John Montgomery,Marketing,Marketing Specialist,Earned Leave,2024-09-02,2024-09-11,10,21,6,5,Sep
+Ashley Humphrey,IT,Software Engineer,Earned Leave,2024-02-07,2024-02-10,4,29,9,16,Feb
+Jason Carter,Finance,Financial Analyst,Sick Leave,2024-12-06,2024-12-14,9,23,6,8,Dec
+Edward Bishop,Marketing,Marketing Specialist,Maternity Leave,2024-11-22,2024-11-27,6,29,1,22,Nov
+Donna Wells,Operations,Logistics Coordinator,Earned Leave,2024-11-13,2024-11-17,5,30,15,10,Nov
+Michael Merritt,HR,Recruiter,Paternity Leave,2024-08-31,2024-09-01,2,25,20,3,Aug
+Lisa Jones,IT,Software Engineer,Maternity Leave,2024-03-11,2024-03-17,7,22,5,10,Mar
+Jimmy Arnold,Operations,Logistics Coordinator,Sick Leave,2024-07-24,2024-07-28,5,27,17,5,Jul
+Mr. Erik Meyer,Marketing,Marketing Specialist,Paternity Leave,2024-02-26,2024-03-03,7,22,6,9,Feb
+Sean Williams,HR,Recruiter,Earned Leave,2024-11-27,2024-11-29,3,22,13,6,Nov
+Stacey Obrien,Operations,Operations Manager,Sick Leave,2024-10-30,2024-11-08,10,24,1,13,Oct
+Tonya Murray,Marketing,SEO Analyst,Sick Leave,2024-04-01,2024-04-07,7,29,18,4,Apr
+Margaret Huber,Operations,Logistics Coordinator,Casual Leave,2024-05-21,2024-05-26,6,29,7,16,May
+Vanessa Rogers,Operations,Logistics Coordinator,Paternity Leave,2024-10-26,2024-11-03,9,22,11,2,Oct
+Tammy Pearson,IT,Software Engineer,Casual Leave,2024-08-09,2024-08-12,4,20,15,1,Aug
+Shelly Wagner,Finance,Financial Analyst,Sick Leave,2024-06-03,2024-06-10,8,22,7,7,Jun
+Heather Martin,IT,Software Engineer,Sick Leave,2024-09-21,2024-09-24,4,30,6,20,Sep
+Alexandra Pitts,Marketing,Marketing Specialist,Sick Leave,2024-06-27,2024-07-06,10,28,2,16,Jun
+Jared Anderson,Finance,Financial Analyst,Sick Leave,2024-02-02,2024-02-07,6,28,12,10,Feb
+Paul Barry,Finance,Accountant,Earned Leave,2024-06-08,2024-06-17,10,29,8,11,Jun
+Theresa Barber MD,HR,Recruiter,Paternity Leave,2023-12-24,2023-12-30,7,24,8,9,Dec
+Corey Richmond,Operations,Logistics Coordinator,Maternity Leave,2024-07-22,2024-07-26,5,29,17,7,Jul
+Donna Walsh,Finance,Accountant,Maternity Leave,2024-04-02,2024-04-08,7,22,3,12,Apr
+April Fields,HR,Recruiter,Paternity Leave,2023-12-23,2023-12-29,7,28,7,14,Dec
+Todd Vaughn,Marketing,Marketing Specialist,Sick Leave,2024-03-28,2024-04-01,5,26,13,8,Mar
+James Oliver,Finance,Financial Analyst,Paternity Leave,2024-06-18,2024-06-23,6,29,13,10,Jun
+Joseph Benson,IT,System Administrator,Paternity Leave,2024-05-04,2024-05-10,7,25,12,6,May
+Paul Wade,IT,System Administrator,Paternity Leave,2024-06-03,2024-06-07,5,23,0,18,Jun
+Anthony Walker,Marketing,Marketing Specialist,Casual Leave,2024-01-26,2024-01-28,3,24,6,15,Jan
+John Francis,Operations,Operations Manager,Sick Leave,2024-02-27,2024-03-05,8,28,14,6,Feb
+Kim Rodriguez,Marketing,SEO Analyst,Casual Leave,2024-03-30,2024-04-05,7,23,3,13,Mar
+Elizabeth Hughes,Operations,Operations Manager,Paternity Leave,2024-04-14,2024-04-17,4,20,8,8,Apr
+Peggy Trujillo,Operations,Operations Manager,Earned Leave,2024-03-22,2024-03-26,5,30,24,1,Mar
+Kimberly Nichols,IT,System Administrator,Casual Leave,2024-06-06,2024-06-10,5,29,5,19,Jun
+Christopher Henderson,IT,System Administrator,Maternity Leave,2024-08-15,2024-08-18,4,27,9,14,Aug
+William Lopez,Finance,Financial Analyst,Earned Leave,2024-01-16,2024-01-20,5,20,11,4,Jan
+Ruben Marshall,HR,HR Manager,Earned Leave,2024-09-04,2024-09-07,4,28,9,15,Sep
+John Miller,Marketing,SEO Analyst,Maternity Leave,2024-10-20,2024-10-21,2,27,12,13,Oct
+Thomas Daniels,HR,Recruiter,Maternity Leave,2024-09-27,2024-10-01,5,27,1,21,Sep
+Henry Beck,Marketing,SEO Analyst,Sick Leave,2024-05-04,2024-05-08,5,20,3,12,May
+Steven Thomas,Finance,Accountant,Sick Leave,2024-08-22,2024-08-24,3,22,6,13,Aug
+Christina Moran,HR,HR Manager,Paternity Leave,2024-10-08,2024-10-12,5,21,6,10,Oct
+Andrew Bolton,Operations,Operations Manager,Paternity Leave,2024-11-27,2024-12-01,5,30,10,15,Nov
+Martin Townsend,HR,Recruiter,Casual Leave,2024-08-07,2024-08-15,9,26,10,7,Aug
+Ashley Brewer,IT,Software Engineer,Sick Leave,2024-03-31,2024-04-01,2,29,18,9,Mar
+Mrs. Melissa Bryant,IT,System Administrator,Maternity Leave,2024-05-29,2024-06-03,6,23,7,10,May
+Bill Johnson,Finance,Financial Analyst,Paternity Leave,2023-12-25,2023-12-30,6,26,4,16,Dec
+Christopher Ross,IT,System Administrator,Sick Leave,2024-03-16,2024-03-21,6,25,6,13,Mar
+Danielle Hamilton,Finance,Accountant,Paternity Leave,2024-09-12,2024-09-13,2,27,18,7,Sep
+Kayla Anderson,Finance,Financial Analyst,Earned Leave,2024-03-06,2024-03-15,10,29,3,16,Mar
+Dr. Lisa Hamilton MD,Operations,Operations Manager,Casual Leave,2023-12-26,2023-12-30,5,20,9,6,Dec
+Shelby Franklin,HR,HR Manager,Paternity Leave,2024-05-24,2024-05-29,6,24,4,14,May
+Maxwell Gordon,Operations,Logistics Coordinator,Sick Leave,2024-02-03,2024-02-11,9,21,0,12,Feb
+Richard Miller,Marketing,Marketing Specialist,Paternity Leave,2024-03-16,2024-03-23,8,30,15,7,Mar
+Kyle Martinez,Operations,Logistics Coordinator,Maternity Leave,2024-04-18,2024-04-18,1,22,17,4,Apr
+Thomas Preston,Marketing,Marketing Specialist,Casual Leave,2024-04-11,2024-04-15,5,28,12,11,Apr
+Shawn Baker,HR,HR Manager,Casual Leave,2024-05-10,2024-05-15,6,28,6,16,May
+Juan Foster,Finance,Accountant,Sick Leave,2024-05-05,2024-05-11,7,21,5,9,May
+Nicholas Thompson,Finance,Accountant,Sick Leave,2024-05-11,2024-05-12,2,23,4,17,May
+Shannon Lowe,HR,Recruiter,Sick Leave,2024-02-04,2024-02-05,2,21,17,2,Feb
+Tiffany Cabrera,HR,Recruiter,Earned Leave,2024-08-19,2024-08-25,7,22,2,13,Aug
+Benjamin Wood,HR,HR Manager,Sick Leave,2024-11-16,2024-11-23,8,24,2,14,Nov
+Alexandra Campbell,IT,System Administrator,Maternity Leave,2024-12-08,2024-12-13,6,20,1,13,Dec
+Andrew Mendez,Finance,Financial Analyst,Earned Leave,2024-03-05,2024-03-13,9,22,1,12,Mar
+Francisco Hamilton,Marketing,SEO Analyst,Casual Leave,2024-04-12,2024-04-20,9,21,5,7,Apr
+Eric Bates,Operations,Logistics Coordinator,Sick Leave,2024-06-30,2024-07-07,8,25,15,2,Jun
+Jared Douglas,Operations,Logistics Coordinator,Sick Leave,2023-12-27,2024-01-03,8,26,9,9,Dec
+Katie Stewart,HR,HR Manager,Sick Leave,2024-05-30,2024-06-01,3,26,3,20,May
+Shannon Hanson,IT,System Administrator,Sick Leave,2024-09-04,2024-09-11,8,21,7,6,Sep
+Patricia Simon,Operations,Operations Manager,Paternity Leave,2024-10-16,2024-10-17,2,29,1,26,Oct
+Rhonda Gilbert,Finance,Financial Analyst,Paternity Leave,2024-03-21,2024-03-24,4,29,2,23,Mar
+Shane Mcguire,Finance,Financial Analyst,Casual Leave,2024-02-04,2024-02-12,9,30,12,9,Feb
+Jennifer Wiggins,Operations,Operations Manager,Paternity Leave,2024-07-27,2024-08-04,9,27,7,11,Jul
+William Farrell,Operations,Logistics Coordinator,Earned Leave,2024-09-26,2024-10-04,9,30,20,1,Sep
+Elizabeth Johnson,Marketing,SEO Analyst,Earned Leave,2024-04-22,2024-05-01,10,21,11,0,Apr
+Amanda Thompson,HR,Recruiter,Earned Leave,2024-01-31,2024-02-06,7,27,13,7,Jan
+Kristopher Estrada,Finance,Accountant,Earned Leave,2024-01-02,2024-01-02,1,22,7,14,Jan
+Molly Vang,IT,System Administrator,Sick Leave,2024-04-20,2024-04-21,2,28,15,11,Apr
+Brett Dickerson,HR,Recruiter,Maternity Leave,2024-08-19,2024-08-19,1,26,15,10,Aug
+Leslie Henry,IT,Software Engineer,Earned Leave,2024-12-08,2024-12-16,9,22,5,8,Dec
+William Abbott,HR,HR Manager,Paternity Leave,2024-07-23,2024-07-26,4,21,17,0,Jul
+Randall Medina,Marketing,Marketing Specialist,Paternity Leave,2024-01-26,2024-02-01,7,23,15,1,Jan
+Matthew Newman,Finance,Financial Analyst,Sick Leave,2024-05-06,2024-05-15,10,20,3,7,May
+Annette Coleman,HR,Recruiter,Sick Leave,2024-01-09,2024-01-15,7,28,4,17,Jan
+Natasha Garcia,HR,Recruiter,Paternity Leave,2024-09-25,2024-10-01,7,24,13,4,Sep
+Lisa Rasmussen,Marketing,SEO Analyst,Maternity Leave,2024-11-27,2024-11-29,3,30,15,12,Nov
+Jamie Moreno,IT,Software Engineer,Paternity Leave,2024-06-22,2024-07-01,10,30,16,4,Jun
+Traci Frye,HR,Recruiter,Earned Leave,2024-04-11,2024-04-13,3,20,1,16,Apr
+Rachel Branch,Finance,Accountant,Sick Leave,2024-04-14,2024-04-22,9,22,0,13,Apr
+Ashley Norton,Marketing,SEO Analyst,Maternity Leave,2024-02-01,2024-02-02,2,28,19,7,Feb
