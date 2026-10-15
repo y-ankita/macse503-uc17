@@ -430,20 +430,20 @@
     <created_date>2026/08/28 05:58:31.282</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/08/28 05:58:31.282</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <connection>
-    <name>EHCMDP_PostgreSQL</name>
+    <name>EHCMDP</name>
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>EHCMDP_DB</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79fe218fc6ff8e</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -504,67 +504,6 @@
     </hop>
   </order>
   <step>
-    <name>XML input stream (StAX)</name>
-    <type>XMLInputStream</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <sourceFromInput>N</sourceFromInput>
-    <sourceFieldName/>
-    <filename>D:/Data engg project/7 xml/attendance_2023_2024_healthy_weekdays_holidays_trimmed.xml</filename>
-    <addResultFile>N</addResultFile>
-    <nrRowsToSkip>0</nrRowsToSkip>
-    <rowLimit>0</rowLimit>
-    <defaultStringLen>1024</defaultStringLen>
-    <encoding>UTF-8</encoding>
-    <enableNamespaces>N</enableNamespaces>
-    <enableTrim>Y</enableTrim>
-    <includeFilenameField>N</includeFilenameField>
-    <filenameField>xml_filename</filenameField>
-    <includeRowNumberField>N</includeRowNumberField>
-    <rowNumberField>xml_row_number</rowNumberField>
-    <includeDataTypeNumericField>N</includeDataTypeNumericField>
-    <dataTypeNumericField>xml_data_type_numeric</dataTypeNumericField>
-    <includeDataTypeDescriptionField>Y</includeDataTypeDescriptionField>
-    <dataTypeDescriptionField>xml_data_type_description</dataTypeDescriptionField>
-    <includeXmlLocationLineField>N</includeXmlLocationLineField>
-    <xmlLocationLineField>xml_location_line</xmlLocationLineField>
-    <includeXmlLocationColumnField>N</includeXmlLocationColumnField>
-    <xmlLocationColumnField>xml_location_column</xmlLocationColumnField>
-    <includeXmlElementIDField>Y</includeXmlElementIDField>
-    <xmlElementIDField>xml_element_id</xmlElementIDField>
-    <includeXmlParentElementIDField>Y</includeXmlParentElementIDField>
-    <xmlParentElementIDField>xml_parent_element_id</xmlParentElementIDField>
-    <includeXmlElementLevelField>Y</includeXmlElementLevelField>
-    <xmlElementLevelField>xml_element_level</xmlElementLevelField>
-    <includeXmlPathField>Y</includeXmlPathField>
-    <xmlPathField>xml_path</xmlPathField>
-    <includeXmlParentPathField>Y</includeXmlParentPathField>
-    <xmlParentPathField>xml_parent_path</xmlParentPathField>
-    <includeXmlDataNameField>Y</includeXmlDataNameField>
-    <xmlDataNameField>xml_data_name</xmlDataNameField>
-    <includeXmlDataValueField>Y</includeXmlDataValueField>
-    <xmlDataValueField>xml_data_value</xmlDataValueField>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>160</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Filter rows</name>
     <type>FilterRows</type>
     <description/>
@@ -622,27 +561,21 @@
     <fields>
       <field>
         <name>xml_data_type_description</name>
-        <rename/>
       </field>
       <field>
         <name>xml_element_id</name>
-        <rename/>
       </field>
       <field>
         <name>xml_parent_element_id</name>
-        <rename/>
       </field>
       <field>
         <name>xml_element_level</name>
-        <rename/>
       </field>
       <field>
         <name>xml_path</name>
-        <rename/>
       </field>
       <field>
         <name>xml_parent_path</name>
-        <rename/>
       </field>
       <field>
         <name>xml_data_name</name>
@@ -679,9 +612,9 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>EHCMDP_PostgreSQL</connection>
+    <connection>EHCMDP</connection>
     <schema>staging</schema>
-    <table>stg_attendance_xml</table>
+    <table>attendance</table>
     <commit>1000</commit>
     <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
@@ -708,6 +641,67 @@
     </remotesteps>
     <GUI>
       <xloc>576</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>XML input stream (StAX)</name>
+    <type>XMLInputStream</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <sourceFromInput>N</sourceFromInput>
+    <sourceFieldName/>
+    <filename>C:/Users/maaha/OneDrive/Desktop/VIT/DATA ENGINEERING/DA/DATASETS/attendance_2023_2024_healthy_weekdays_holidays_trimmed.xml</filename>
+    <addResultFile>N</addResultFile>
+    <nrRowsToSkip>0</nrRowsToSkip>
+    <rowLimit>0</rowLimit>
+    <defaultStringLen>1024</defaultStringLen>
+    <encoding>UTF-8</encoding>
+    <enableNamespaces>N</enableNamespaces>
+    <enableTrim>Y</enableTrim>
+    <includeFilenameField>N</includeFilenameField>
+    <filenameField>xml_filename</filenameField>
+    <includeRowNumberField>N</includeRowNumberField>
+    <rowNumberField>xml_row_number</rowNumberField>
+    <includeDataTypeNumericField>N</includeDataTypeNumericField>
+    <dataTypeNumericField>xml_data_type_numeric</dataTypeNumericField>
+    <includeDataTypeDescriptionField>Y</includeDataTypeDescriptionField>
+    <dataTypeDescriptionField>xml_data_type_description</dataTypeDescriptionField>
+    <includeXmlLocationLineField>N</includeXmlLocationLineField>
+    <xmlLocationLineField>xml_location_line</xmlLocationLineField>
+    <includeXmlLocationColumnField>N</includeXmlLocationColumnField>
+    <xmlLocationColumnField>xml_location_column</xmlLocationColumnField>
+    <includeXmlElementIDField>Y</includeXmlElementIDField>
+    <xmlElementIDField>xml_element_id</xmlElementIDField>
+    <includeXmlParentElementIDField>Y</includeXmlParentElementIDField>
+    <xmlParentElementIDField>xml_parent_element_id</xmlParentElementIDField>
+    <includeXmlElementLevelField>Y</includeXmlElementLevelField>
+    <xmlElementLevelField>xml_element_level</xmlElementLevelField>
+    <includeXmlPathField>Y</includeXmlPathField>
+    <xmlPathField>xml_path</xmlPathField>
+    <includeXmlParentPathField>Y</includeXmlParentPathField>
+    <xmlParentPathField>xml_parent_path</xmlParentPathField>
+    <includeXmlDataNameField>Y</includeXmlDataNameField>
+    <xmlDataNameField>xml_data_name</xmlDataNameField>
+    <includeXmlDataValueField>Y</includeXmlDataValueField>
+    <xmlDataValueField>xml_data_value</xmlDataValueField>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
       <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
