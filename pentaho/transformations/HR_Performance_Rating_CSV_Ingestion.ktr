@@ -6,6 +6,7 @@
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -430,7 +431,7 @@
     <created_date>2026/08/21 00:52:42.366</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/08/21 00:52:42.366</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -440,10 +441,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -514,7 +515,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data engg project/3csv/PerformanceRating.csv</filename>
+    <filename>C:\dev\projects\UC17\datasets\PerformanceRating.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -530,7 +531,7 @@
     <encoding/>
     <fields>
       <field>
-        <name>﻿PerformanceID</name>
+        <name>ï»¿PerformanceID</name>
         <type>String</type>
         <format/>
         <currency>Rs.</currency>
@@ -650,6 +651,17 @@
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>﻿PerformanceID</name>
+        <type>String</type>
+        <format/>
+        <currency>Rs.</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>6</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -661,78 +673,6 @@
     </remotesteps>
     <GUI>
       <xloc>176</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>﻿PerformanceID</name>
-        <rename/>
-      </field>
-      <field>
-        <name>EmployeeID</name>
-        <rename/>
-      </field>
-      <field>
-        <name>ReviewDate</name>
-        <rename/>
-      </field>
-      <field>
-        <name>EnvironmentSatisfaction</name>
-        <rename/>
-      </field>
-      <field>
-        <name>JobSatisfaction</name>
-        <rename/>
-      </field>
-      <field>
-        <name>RelationshipSatisfaction</name>
-        <rename/>
-      </field>
-      <field>
-        <name>TrainingOpportunitiesWithinYear</name>
-        <rename/>
-      </field>
-      <field>
-        <name>TrainingOpportunitiesTaken</name>
-        <rename/>
-      </field>
-      <field>
-        <name>WorkLifeBalance</name>
-        <rename/>
-      </field>
-      <field>
-        <name>SelfRating</name>
-        <rename/>
-      </field>
-      <field>
-        <name>ManagerRating</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>320</xloc>
       <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
@@ -768,6 +708,67 @@
     </remotesteps>
     <GUI>
       <xloc>464</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>﻿PerformanceID</name>
+      </field>
+      <field>
+        <name>EmployeeID</name>
+      </field>
+      <field>
+        <name>ReviewDate</name>
+      </field>
+      <field>
+        <name>EnvironmentSatisfaction</name>
+      </field>
+      <field>
+        <name>JobSatisfaction</name>
+      </field>
+      <field>
+        <name>RelationshipSatisfaction</name>
+      </field>
+      <field>
+        <name>TrainingOpportunitiesWithinYear</name>
+      </field>
+      <field>
+        <name>TrainingOpportunitiesTaken</name>
+      </field>
+      <field>
+        <name>WorkLifeBalance</name>
+      </field>
+      <field>
+        <name>SelfRating</name>
+      </field>
+      <field>
+        <name>ManagerRating</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
       <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>

@@ -430,7 +430,7 @@
     <created_date>2026/08/20 23:51:02.387</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/08/20 23:51:02.387</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -504,6 +504,41 @@
     </hop>
   </order>
   <step>
+    <name>Filter rows</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Table output</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>employee_id</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Human Resource CSV Input</name>
     <type>CsvInput</type>
     <description/>
@@ -514,7 +549,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data engg project/2csv/HumanResources-Dataset.csv</filename>
+    <filename>C:\dev\projects\UC17\datasets\HumanResources-Dataset.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -723,63 +758,48 @@
     <fields>
       <field>
         <name>employee_id</name>
-        <rename/>
       </field>
       <field>
         <name>first_name</name>
-        <rename/>
       </field>
       <field>
         <name>last_name</name>
-        <rename/>
       </field>
       <field>
         <name>gender</name>
-        <rename/>
       </field>
       <field>
         <name>state</name>
-        <rename/>
       </field>
       <field>
         <name>city</name>
-        <rename/>
       </field>
       <field>
         <name>hiredate</name>
-        <rename/>
       </field>
       <field>
         <name>department</name>
-        <rename/>
       </field>
       <field>
         <name>job_title</name>
-        <rename/>
       </field>
       <field>
         <name>education_level</name>
-        <rename/>
       </field>
       <field>
         <name>salary</name>
-        <rename/>
       </field>
       <field>
         <name>performance_rating</name>
-        <rename/>
       </field>
       <field>
         <name>overtime</name>
-        <rename/>
       </field>
       <field>
         <name>birthdate</name>
-        <rename/>
       </field>
       <field>
         <name>termdate</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -793,41 +813,6 @@
     </remotesteps>
     <GUI>
       <xloc>400</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter rows</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Table output</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>employee_id</leftvalue>
-        <function>IS NOT NULL</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>560</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>

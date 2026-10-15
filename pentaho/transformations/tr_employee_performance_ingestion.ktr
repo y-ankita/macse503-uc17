@@ -430,7 +430,7 @@
     <created_date>2026/08/20 22:27:58.838</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/08/20 22:27:58.838</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -509,7 +509,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data engg project/1csv/Extended_Employee_Performance_and_Productivity_Data.csv</filename>
+    <filename>C:\dev\projects\UC17\datasets\Extended_Employee_Performance_and_Productivity_Data.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -773,83 +773,63 @@
     <fields>
       <field>
         <name>Employee_ID</name>
-        <rename/>
       </field>
       <field>
         <name>Department</name>
-        <rename/>
       </field>
       <field>
         <name>Gender</name>
-        <rename/>
       </field>
       <field>
         <name>Age</name>
-        <rename/>
       </field>
       <field>
         <name>Job_Title</name>
-        <rename/>
       </field>
       <field>
         <name>Hire_Date</name>
-        <rename/>
       </field>
       <field>
         <name>Years_At_Company</name>
-        <rename/>
       </field>
       <field>
         <name>Education_Level</name>
-        <rename/>
       </field>
       <field>
         <name>Performance_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Monthly_Salary</name>
-        <rename/>
       </field>
       <field>
         <name>Work_Hours_Per_Week</name>
-        <rename/>
       </field>
       <field>
         <name>Projects_Handled</name>
-        <rename/>
       </field>
       <field>
         <name>Overtime_Hours</name>
-        <rename/>
       </field>
       <field>
         <name>Sick_Days</name>
-        <rename/>
       </field>
       <field>
         <name>Remote_Work_Frequency</name>
-        <rename/>
       </field>
       <field>
         <name>Team_Size</name>
-        <rename/>
       </field>
       <field>
         <name>Training_Hours</name>
-        <rename/>
       </field>
       <field>
         <name>Promotions</name>
-        <rename/>
       </field>
       <field>
         <name>Employee_Satisfaction_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Resigned</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>

@@ -430,7 +430,7 @@
     <created_date>2026/09/06 02:08:16.341</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/09/06 02:08:16.341</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -522,7 +522,7 @@
     <includeNulls>N</includeNulls>
     <rownum_field/>
     <file>
-      <name>D:\Data engg project\8 sql\Amazon_employee_access.json</name>
+      <name>C:\dev\projects\UC17\datasets\Amazon_employee_access.json</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -713,47 +713,36 @@
     <fields>
       <field>
         <name>id</name>
-        <rename/>
       </field>
       <field>
         <name>RESOURCE</name>
-        <rename/>
       </field>
       <field>
         <name>MGR_ID</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_ROLLUP_1</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_ROLLUP_2</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_DEPTNAME</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_TITLE</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_FAMILY_DESC</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_FAMILY</name>
-        <rename/>
       </field>
       <field>
         <name>ROLE_CODE</name>
-        <rename/>
       </field>
       <field>
         <name>target</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>

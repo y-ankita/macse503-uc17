@@ -430,7 +430,7 @@
     <created_date>2026/08/28 01:01:58.643</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/08/28 01:01:58.643</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -504,6 +504,41 @@
     </hop>
   </order>
   <step>
+    <name>Filter rows</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Table output</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>Candidate_ID</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>368</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>JSON input</name>
     <type>JsonInput</type>
     <description/>
@@ -527,7 +562,7 @@
     <includeNulls>N</includeNulls>
     <rownum_field/>
     <file>
-      <name>D:/Data engg project/5json/fair_recruitment_dataset.json</name>
+      <name>C:\dev\projects\UC17\datasets\fair_recruitment_dataset.json</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -783,67 +818,51 @@
     <fields>
       <field>
         <name>Aptitude_Test_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Skill_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Candidate_ID</name>
-        <rename/>
       </field>
       <field>
         <name>Hiring_Decision</name>
-        <rename/>
       </field>
       <field>
         <name>Gender</name>
-        <rename/>
       </field>
       <field>
         <name>Education_Level</name>
-        <rename/>
       </field>
       <field>
         <name>Experience_Years</name>
-        <rename/>
       </field>
       <field>
         <name>Previous_Companies</name>
-        <rename/>
       </field>
       <field>
         <name>Communication_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Technical_Test_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Job_Role_Applied</name>
-        <rename/>
       </field>
       <field>
         <name>Certifications_Count</name>
-        <rename/>
       </field>
       <field>
         <name>Interview_Score</name>
-        <rename/>
       </field>
       <field>
         <name>Expected_Salary</name>
-        <rename/>
       </field>
       <field>
         <name>Age</name>
-        <rename/>
       </field>
       <field>
         <name>Location</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -857,41 +876,6 @@
     </remotesteps>
     <GUI>
       <xloc>208</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter rows</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Table output</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>Candidate_ID</leftvalue>
-        <function>IS NOT NULL</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>

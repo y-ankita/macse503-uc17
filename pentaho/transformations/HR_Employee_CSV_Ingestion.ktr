@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>EHCMDP_DB</database>
+    <database>EHCMDP_PostgreSQL</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce1086cbf88f</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -514,7 +514,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data engg project/3csv/Employee.csv</filename>
+    <filename>C:\dev\projects\UC17\datasets\Employee.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -798,126 +798,6 @@
     </GUI>
   </step>
   <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>﻿EmployeeID</name>
-        <rename/>
-      </field>
-      <field>
-        <name>FirstName</name>
-        <rename/>
-      </field>
-      <field>
-        <name>LastName</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Gender</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Age</name>
-        <rename/>
-      </field>
-      <field>
-        <name>BusinessTravel</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Department</name>
-        <rename/>
-      </field>
-      <field>
-        <name>DistanceFromHome (KM)</name>
-        <rename/>
-      </field>
-      <field>
-        <name>State</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Ethnicity</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Education</name>
-        <rename/>
-      </field>
-      <field>
-        <name>EducationField</name>
-        <rename/>
-      </field>
-      <field>
-        <name>JobRole</name>
-        <rename/>
-      </field>
-      <field>
-        <name>MaritalStatus</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Salary</name>
-        <rename/>
-      </field>
-      <field>
-        <name>StockOptionLevel</name>
-        <rename/>
-      </field>
-      <field>
-        <name>OverTime</name>
-        <rename/>
-      </field>
-      <field>
-        <name>HireDate</name>
-        <rename/>
-      </field>
-      <field>
-        <name>Attrition</name>
-        <rename/>
-      </field>
-      <field>
-        <name>YearsAtCompany</name>
-        <rename/>
-      </field>
-      <field>
-        <name>YearsInMostRecentRole</name>
-        <rename/>
-      </field>
-      <field>
-        <name>YearsSinceLastPromotion</name>
-        <rename/>
-      </field>
-      <field>
-        <name>YearsWithCurrManager</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Filter rows</name>
     <type>FilterRows</type>
     <description/>
@@ -948,6 +828,103 @@
     </remotesteps>
     <GUI>
       <xloc>496</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>﻿EmployeeID</name>
+      </field>
+      <field>
+        <name>FirstName</name>
+      </field>
+      <field>
+        <name>LastName</name>
+      </field>
+      <field>
+        <name>Gender</name>
+      </field>
+      <field>
+        <name>Age</name>
+      </field>
+      <field>
+        <name>BusinessTravel</name>
+      </field>
+      <field>
+        <name>Department</name>
+      </field>
+      <field>
+        <name>DistanceFromHome (KM)</name>
+      </field>
+      <field>
+        <name>State</name>
+      </field>
+      <field>
+        <name>Ethnicity</name>
+      </field>
+      <field>
+        <name>Education</name>
+      </field>
+      <field>
+        <name>EducationField</name>
+      </field>
+      <field>
+        <name>JobRole</name>
+      </field>
+      <field>
+        <name>MaritalStatus</name>
+      </field>
+      <field>
+        <name>Salary</name>
+      </field>
+      <field>
+        <name>StockOptionLevel</name>
+      </field>
+      <field>
+        <name>OverTime</name>
+      </field>
+      <field>
+        <name>HireDate</name>
+      </field>
+      <field>
+        <name>Attrition</name>
+      </field>
+      <field>
+        <name>YearsAtCompany</name>
+      </field>
+      <field>
+        <name>YearsInMostRecentRole</name>
+      </field>
+      <field>
+        <name>YearsSinceLastPromotion</name>
+      </field>
+      <field>
+        <name>YearsWithCurrManager</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
