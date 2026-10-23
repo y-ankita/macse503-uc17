@@ -553,111 +553,6 @@
     </GUI>
   </step>
   <step>
-    <name>Table output</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>EHCMDP_PostgreSQL</connection>
-    <schema>staging</schema>
-    <table>stg_hr_saas_snapshots</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>XML input stream (StAX)</name>
-    <type>XMLInputStream</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <sourceFromInput>N</sourceFromInput>
-    <sourceFieldName/>
-    <filename>C:\dev\projects\UC17\datasets\snapshots_updated.xml</filename>
-    <addResultFile>N</addResultFile>
-    <nrRowsToSkip>0</nrRowsToSkip>
-    <rowLimit>0</rowLimit>
-    <defaultStringLen>1024</defaultStringLen>
-    <encoding>UTF-8</encoding>
-    <enableNamespaces>N</enableNamespaces>
-    <enableTrim>Y</enableTrim>
-    <includeFilenameField>N</includeFilenameField>
-    <filenameField>xml_filename</filenameField>
-    <includeRowNumberField>N</includeRowNumberField>
-    <rowNumberField>xml_row_number</rowNumberField>
-    <includeDataTypeNumericField>N</includeDataTypeNumericField>
-    <dataTypeNumericField>xml_data_type_numeric</dataTypeNumericField>
-    <includeDataTypeDescriptionField>Y</includeDataTypeDescriptionField>
-    <dataTypeDescriptionField>xml_data_type_description</dataTypeDescriptionField>
-    <includeXmlLocationLineField>N</includeXmlLocationLineField>
-    <xmlLocationLineField>xml_location_line</xmlLocationLineField>
-    <includeXmlLocationColumnField>N</includeXmlLocationColumnField>
-    <xmlLocationColumnField>xml_location_column</xmlLocationColumnField>
-    <includeXmlElementIDField>Y</includeXmlElementIDField>
-    <xmlElementIDField>xml_element_id</xmlElementIDField>
-    <includeXmlParentElementIDField>Y</includeXmlParentElementIDField>
-    <xmlParentElementIDField>xml_parent_element_id</xmlParentElementIDField>
-    <includeXmlElementLevelField>Y</includeXmlElementLevelField>
-    <xmlElementLevelField>xml_element_level</xmlElementLevelField>
-    <includeXmlPathField>Y</includeXmlPathField>
-    <xmlPathField>xml_path</xmlPathField>
-    <includeXmlParentPathField>Y</includeXmlParentPathField>
-    <xmlParentPathField>xml_parent_path</xmlParentPathField>
-    <includeXmlDataNameField>Y</includeXmlDataNameField>
-    <xmlDataNameField>xml_data_name</xmlDataNameField>
-    <includeXmlDataValueField>Y</includeXmlDataValueField>
-    <xmlDataValueField>xml_data_value</xmlDataValueField>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>256</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>String operations</name>
     <type>StringOperations</type>
     <description/>
@@ -750,6 +645,50 @@
     </GUI>
   </step>
   <step>
+    <name>Table output</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>EHCMDP_PostgreSQL</connection>
+    <schema>staging</schema>
+    <table>stg_hr_saas_snapshots</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>944</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Unique rows (HashSet)</name>
     <type>UniqueRowsByHashSet</type>
     <description/>
@@ -802,6 +741,67 @@
     </remotesteps>
     <GUI>
       <xloc>768</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>XML input stream (StAX)</name>
+    <type>XMLInputStream</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <sourceFromInput>N</sourceFromInput>
+    <sourceFieldName/>
+    <filename>C:\dev\projects\UC17\datasets\snapshots_updated.xml</filename>
+    <addResultFile>N</addResultFile>
+    <nrRowsToSkip>0</nrRowsToSkip>
+    <rowLimit>0</rowLimit>
+    <defaultStringLen>1024</defaultStringLen>
+    <encoding>UTF-8</encoding>
+    <enableNamespaces>N</enableNamespaces>
+    <enableTrim>Y</enableTrim>
+    <includeFilenameField>N</includeFilenameField>
+    <filenameField>xml_filename</filenameField>
+    <includeRowNumberField>N</includeRowNumberField>
+    <rowNumberField>xml_row_number</rowNumberField>
+    <includeDataTypeNumericField>N</includeDataTypeNumericField>
+    <dataTypeNumericField>xml_data_type_numeric</dataTypeNumericField>
+    <includeDataTypeDescriptionField>Y</includeDataTypeDescriptionField>
+    <dataTypeDescriptionField>xml_data_type_description</dataTypeDescriptionField>
+    <includeXmlLocationLineField>N</includeXmlLocationLineField>
+    <xmlLocationLineField>xml_location_line</xmlLocationLineField>
+    <includeXmlLocationColumnField>N</includeXmlLocationColumnField>
+    <xmlLocationColumnField>xml_location_column</xmlLocationColumnField>
+    <includeXmlElementIDField>Y</includeXmlElementIDField>
+    <xmlElementIDField>xml_element_id</xmlElementIDField>
+    <includeXmlParentElementIDField>Y</includeXmlParentElementIDField>
+    <xmlParentElementIDField>xml_parent_element_id</xmlParentElementIDField>
+    <includeXmlElementLevelField>Y</includeXmlElementLevelField>
+    <xmlElementLevelField>xml_element_level</xmlElementLevelField>
+    <includeXmlPathField>Y</includeXmlPathField>
+    <xmlPathField>xml_path</xmlPathField>
+    <includeXmlParentPathField>Y</includeXmlParentPathField>
+    <xmlParentPathField>xml_parent_path</xmlParentPathField>
+    <includeXmlDataNameField>Y</includeXmlDataNameField>
+    <xmlDataNameField>xml_data_name</xmlDataNameField>
+    <includeXmlDataValueField>Y</includeXmlDataValueField>
+    <xmlDataValueField>xml_data_value</xmlDataValueField>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
